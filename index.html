@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIEFINDER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="p-3">
+        <div class="container">
+          <div class="d-flex flex-wrap justify-content-center">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+              <img src="img/logo-01.png" alt="logo para dispositivos chicos">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto ms-lg-auto justify-content-center align-items-center">
+              <li><a href="index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+              <li><a href="#peliculasCard" class="nav-link px-2 text-white">Películas</a></li>
+              <li><a href="#favoritas" class="nav-link px-2 text-white">Tus favoritas</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      
+      <main>
+
+        <section id="principal" class="bannerPeliculas d-flex align-items-center justify-content-center justify-content-lg-start">
+            <div class="textoBanner text-white text-center text-lg-start">
+              <h1 class="ms-lg-4">Descubre el top 100 de mejores películas según IMDb y llevá tu entretenimiento a otro nivel.</h1>
+            </div>
+        </section>
+
+        <section id="peliculasCard" class="py-4">
+          <div class="d-flex flex-column justify-content-center align-items-center container">
+
+            <h2 class="mt-4">Encontrá tus peliculas favoritas</h2>
+            <p>Y guardalas para no perderte nada!</p>
+
+            <div id="genero" class="d-flex-sm flex-nowrap justify-content-center  mt-4 rounded-pill p-1">
+                <button id="Drama" class="btn btn-light rounded-pill px-3" type="button">Drama</button>
+                <button id="Crime" class="btn btn-light rounded-pill px-3" type="button">Crimen</button>
+                <button id="Adventure" class="btn btn-light rounded-pill px-3" type="button">Aventura</button>
+                <button id="Comedy" class="btn btn-light rounded-pill px-3" type="button">Comedia</button>
+                <button id="Animation" class="btn btn-light rounded-pill px-3" type="button">Animación</button>
+                <button id="Sci-Fi" class="btn btn-light rounded-pill px-3" type="button">Ciencia Ficción</button>
+                <button id="Romance" class="btn btn-light rounded-pill px-3" type="button">Romance</button>
+              </div>
+            </div>
+          
+            <div id="contenedor" class="row d-flex justify-content-center container-lg py-4 mx-auto"></div>
+          </div>
+        </section>
+
+        <section>
+          <div id="favoritas" class="row d-flex justify-content-center container-lg py-4 mx-auto">
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div>
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 px-1 my-2 border-top">
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+              <li class="nav-item"><a href="#peliculasCard" class="nav-link px-2 text-body-secondary">Peliculas</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Tus favoritas</a></li>
+            </ul>
+            
+            <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <img src="img/logo-01.png" alt="logo moviefinder">
+            </a>
+            
+            <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+          </footer>
+        </div>
+      </footer>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
