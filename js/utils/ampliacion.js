@@ -7,7 +7,7 @@ const obtenerPeliculaAmpliada = (id) => {
     return fetch(`https://imdb-top-100-movies.p.rapidapi.com/${id}`, {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ea91c5c078mshf5e2989a517edebp189325jsn9b1bab4e0c13',
+            'X-RapidAPI-Key': '271e0b427cmsh0a1e229686cadfbp18b820jsn164024744976',
             'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
         }
     })
